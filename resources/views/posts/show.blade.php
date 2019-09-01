@@ -9,7 +9,7 @@
 
         
     <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{$post->body}}
+            <li class="list-group-item">{!!$post->body!!}
                         <p><small>Writen on {{$post->created_at}}<small></p>
                 </li>
     </ul>

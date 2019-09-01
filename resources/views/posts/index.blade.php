@@ -10,7 +10,7 @@
                              <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                         </div>
                         <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{{$post->body}}
+                                <li class="list-group-item">{{strip_tags($post->body)}}
                 <p><small>Writen on {{$post->created_at}}</small></li></p>
                 </div>
             </ul>
