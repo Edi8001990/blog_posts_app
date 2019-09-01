@@ -4,6 +4,7 @@ namespace FootballSchedule\Http\Controllers;
 
 use Illuminate\Http\Request;
 use FootballSchedule\Post;
+use DB;
 
 class PostsController extends Controller
 {
@@ -13,9 +14,14 @@ class PostsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {   
-        $posts = Post::orderBy('title', 'asc')->get();
+    {    
+        
+        // $posts = DB::select('SELECT * FROM posts');
+        // $posts = Post::orderBy('title', 'asc')->get();
+        $posts = Post::orderBy('title', 'asc')->paginate(10);
         return view('posts.index')->with('posts', $posts);
+
+        //Pagination
     }
 
     /**

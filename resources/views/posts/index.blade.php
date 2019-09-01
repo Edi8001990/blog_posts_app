@@ -3,7 +3,7 @@
 @section('content')
     <h1>Posts</h1>
 
-        @if(count($posts) > 1)
+        @if(count($posts) > 0)
             @foreach ($posts as $post)
                 <div class="list-group">
                         <div class="card-header">
@@ -15,6 +15,7 @@
                 </div>
             </ul>
             @endforeach
+            {{$posts->links()}}
     @else
     <p>No Post Found</p>
     @endif
