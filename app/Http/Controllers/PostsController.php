@@ -53,7 +53,7 @@ class PostsController extends Controller
             $post->body = $request->input('body');
             $post->save();
 
-        return redirect('/posts')->with('sucess', 'Post Created');
+        return redirect('/posts')->with('success', 'Post Created');
     }
 
     /**
@@ -100,7 +100,7 @@ class PostsController extends Controller
             $post->body = $request->input('body');
             $post->save();
 
-        return redirect('/posts')->with('sucess', 'Post Updated');
+        return redirect('/posts')->with('success', 'Post Updated');
     }
 
     /**
@@ -111,6 +111,9 @@ class PostsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::find($id);
+        $post->delete();
+
+        return redirect('/posts')->with('success', 'Post has been removed');
     }
 }
