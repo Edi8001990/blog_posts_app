@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="card-header">
+    <a href="/posts" class="btn btn-info">Go back</a>
         <div class="card-header">
-            <h1>{{$post->title}}</h1>
-        </div>
+            <div class="card-header">
+                <h1>{{$post->title}}</h1>
+            </div>
 
         
     <ul class="list-group list-group-flush">
