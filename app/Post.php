@@ -14,4 +14,10 @@ class Post extends Model
 
     //Timestamps
     public $timestamps = true;
+
+
+    //Make a Relation
+    public function user(){
+       return $this->belongsTo('FootballSchedule\User');
+    }
 }

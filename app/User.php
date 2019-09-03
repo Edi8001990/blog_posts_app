@@ -36,4 +36,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //Make a Relation
+    public function posts(){
+        return $this->hasMany('FootballSchedule\Post');
+    }
 }
