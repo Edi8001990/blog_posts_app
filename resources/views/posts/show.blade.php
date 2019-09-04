@@ -6,6 +6,7 @@
             <div class="card-header">
                 <h1>{{$post->title}}</h1>
             </div>
+            <img style="width:40%" src="/storage/cover_images/{{$post->cover_image}}">
 
         
     <ul class="list-group list-group-flush">
