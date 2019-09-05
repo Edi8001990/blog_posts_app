@@ -11,7 +11,7 @@
                         
                             <div class="row all-posts-list">
                                 <div class="col-md-4 col-sm-4">
-                                    <img style="width:35%" src="/storage/cover_images/{{$post->cover_image}}">
+                                    <a href="/posts/{{$post->id}}"><img style="width:35%" src="/storage/cover_images/{{$post->cover_image}}"></a>
                                 </div>
 
                                 <div class="col-md-8 col-sm-8">
