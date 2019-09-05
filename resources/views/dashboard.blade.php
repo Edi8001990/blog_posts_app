@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                        <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                        
                     <h3>Your Blog posts</h3>
                                 @if(count($posts) > 0)
 
@@ -46,6 +46,8 @@
                                         @else
                                         <p>You have no posts.</p>
                                 @endif
+
+                                <a href="/posts/create" class="btn btn-primary">Create Post</a>
                 </div>
             </div>
         </div>

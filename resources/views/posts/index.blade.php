@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Posts</h1>
+    <h1 class="text-center">Posts</h1>
 
         @if(count($posts) > 0)
             @foreach ($posts as $post)
@@ -27,7 +27,7 @@
             @endforeach
             {{$posts->links()}}
     @else
-    <p>No Post Found</p>
+    <h1 class="display-1 text-center">No posts found</h1>
     @endif
 
 
