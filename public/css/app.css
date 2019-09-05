@@ -10652,3 +10652,15 @@ a.text-dark:focus {
   margin-bottom: 4rem;
 }
 
+.all-posts-list,
+.image-edit,
+.edit-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.all-posts-list-container {
+  margin: auto;
+  max-width: 70rem;
+}
+

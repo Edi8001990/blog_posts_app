@@ -12,9 +12,9 @@
                     {{Form::label('body', 'Body')}}
                     {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor', 'class' => 'form-control' , 'placeholder' => 'Body'])}}
             </div>
+            <img width="20%" class="image-edit" src="/storage/cover_images/{{$post->cover_image}}">
             <div class="form-group">
                     {{Form::file('cover_image')}}
-                    <img src="/storage/cover_images/{{$post->cover_image}}">
             </div>
             
             {{Form::hidden('_method', 'PUT')}}
