@@ -1,10 +1,10 @@
 <?php
 
-namespace FootballSchedule\Http\Controllers;
+namespace BlogPostsApp\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use FootballSchedule\Post;
+use BlogPostsApp\Post;
 use DB;
 
 class PostsController extends Controller

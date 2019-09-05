@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule\Http\Controllers;
+namespace BlogPostsApp\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

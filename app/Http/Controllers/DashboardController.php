@@ -1,9 +1,9 @@
 <?php
 
-namespace FootballSchedule\Http\Controllers;
+namespace BlogPostsApp\Http\Controllers;
 
 use Illuminate\Http\Request;
-use FootballSchedule\User;
+use BlogPostsApp\User;
 
 class DashboardController extends Controller
 {

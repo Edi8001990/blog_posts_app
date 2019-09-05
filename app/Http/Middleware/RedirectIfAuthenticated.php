@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule\Http\Middleware;
+namespace BlogPostsApp\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

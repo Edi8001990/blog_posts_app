@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule;
+namespace BlogPostsApp;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -39,6 +39,6 @@ class User extends Authenticatable
 
     //Make a Relation
     public function posts(){
-        return $this->hasMany('FootballSchedule\Post');
+        return $this->hasMany('BlogPostsApp\Post');
     }
 }

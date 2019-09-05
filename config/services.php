@@ -35,7 +35,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => FootballSchedule\User::class,
+        'model' => BlogPostsApp\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
         'webhook' => [

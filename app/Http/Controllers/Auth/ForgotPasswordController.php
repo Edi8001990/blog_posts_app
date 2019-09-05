@@ -1,8 +1,8 @@
 <?php
 
-namespace FootballSchedule\Http\Controllers\Auth;
+namespace BlogPostsApp\Http\Controllers\Auth;
 
-use FootballSchedule\Http\Controllers\Controller;
+use BlogPostsApp\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

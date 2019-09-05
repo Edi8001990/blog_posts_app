@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule\Http\Middleware;
+namespace BlogPostsApp\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule\Providers;
+namespace BlogPostsApp\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'FootballSchedule\Model' => 'FootballSchedule\Policies\ModelPolicy',
+        // 'BlogPostsApp\Model' => 'BlogPostsApp\Policies\ModelPolicy',
     ];
 
     /**

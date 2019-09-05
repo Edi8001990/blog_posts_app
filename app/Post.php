@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule;
+namespace BlogPostsApp;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,6 +18,6 @@ class Post extends Model
 
     //Make a Relation
     public function user(){
-       return $this->belongsTo('FootballSchedule\User');
+       return $this->belongsTo('BlogPostsApp\User');
     }
 }

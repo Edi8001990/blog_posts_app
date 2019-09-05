@@ -1,6 +1,6 @@
 <?php
 
-namespace FootballSchedule\Http\Controllers;
+namespace BlogPostsApp\Http\Controllers;
 
 use Illuminate\Http\Request;
 

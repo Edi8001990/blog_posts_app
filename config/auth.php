@@ -68,7 +68,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => FootballSchedule\User::class,
+            'model' => BlogPostsApp\User::class,
         ],
 
         // 'users' => [

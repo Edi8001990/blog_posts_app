@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        FootballSchedule\Providers\AppServiceProvider::class,
-        FootballSchedule\Providers\AuthServiceProvider::class,
-        // FootballSchedule\Providers\BroadcastServiceProvider::class,
-        FootballSchedule\Providers\EventServiceProvider::class,
-        FootballSchedule\Providers\RouteServiceProvider::class,
+        BlogPostsApp\Providers\AppServiceProvider::class,
+        BlogPostsApp\Providers\AuthServiceProvider::class,
+        // BlogPostsApp\Providers\BroadcastServiceProvider::class,
+        BlogPostsApp\Providers\EventServiceProvider::class,
+        BlogPostsApp\Providers\RouteServiceProvider::class,
 
     ],
 
