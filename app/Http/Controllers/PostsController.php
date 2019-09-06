@@ -189,4 +189,5 @@ class PostsController extends Controller
 
         return redirect('/posts')->with('success', 'Post has been removed');
     }
+
 }
